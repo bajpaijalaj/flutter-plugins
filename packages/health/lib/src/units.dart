@@ -5,6 +5,7 @@ enum HealthDataUnit {
   BEATS_PER_MINUTE,
   CALORIES,
   COUNT,
+  FIELD_RPM,
   DEGREE_CELSIUS,
   KILOGRAMS,
   METERS,
