@@ -106,7 +106,7 @@ const Map<HealthDataType, HealthDataUnit> _dataTypeToUnit = {
   HealthDataType.HEIGHT: HealthDataUnit.METERS,
   HealthDataType.RESTING_HEART_RATE: HealthDataUnit.BEATS_PER_MINUTE,
   HealthDataType.STEPS_DELTA: HealthDataUnit.COUNT,
-  HealthDataType.STEPS_CADENCE: HealthDataUnit.COUNT,
+  HealthDataType.STEPS_CADENCE: HealthDataUnit.FIELD_RPM,
   HealthDataType.WAIST_CIRCUMFERENCE: HealthDataUnit.METERS,
   HealthDataType.WALKING_HEART_RATE: HealthDataUnit.BEATS_PER_MINUTE,
   HealthDataType.WEIGHT: HealthDataUnit.KILOGRAMS,
