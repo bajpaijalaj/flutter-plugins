@@ -129,8 +129,8 @@ class HealthPlugin(val activity: Activity, val channel: MethodChannel) : MethodC
             BODY_FAT_PERCENTAGE -> Field.FIELD_PERCENTAGE
             HEIGHT -> Field.FIELD_HEIGHT
             WEIGHT -> Field.FIELD_WEIGHT
-            STEPS_DELTA -> Field.FIELD_STEPS_DELTA
-            STEPS_CADENCE -> Field.FIELD_STEPS_CADENCE
+            STEPS_DELTA -> Field.FIELD_STEPS
+            STEPS_CADENCE -> Field.FIELD_STEPS
             ACTIVE_ENERGY_BURNED -> Field.FIELD_CALORIES
             HEART_RATE -> Field.FIELD_BPM
             BODY_TEMPERATURE -> HealthFields.FIELD_BODY_TEMPERATURE
